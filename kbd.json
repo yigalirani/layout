@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "crkbd/rev1",
-  "keymap": "crkbd_rev1_crkbd_rev1_crkbd_rev1_shifters",
+  "keymap": "crkbd_rev1_crkbd_rev1_crkbd_rev1_crkbd_rev1_shifters",
   "layout": "LAYOUT_split_3x6_3",
   "layers": [
     [
@@ -31,7 +31,7 @@
       "KC_L",
       "KC_SCLN",
       "KC_ENT",
-      "TO(1)",
+      "KC_LSFT",
       "KC_Z",
       "KC_X",
       "KC_C",
@@ -42,13 +42,13 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "KC_TRNS",
-      "MO(2)",
-      "KC_LALT",
+      "KC_RSFT",
       "KC_LCTL",
-      "KC_LSFT",
+      "KC_LALT",
+      "MO(2)",
+      "MO(1)",
       "KC_SPC",
-      "KC_LGUI"
+      "KC_RCTL"
     ],
     [
       "KC_ESC",
@@ -75,7 +75,7 @@
       "KC_PGUP",
       "KC_INS",
       "KC_ENT",
-      "TO(2)",
+      "KC_LSFT",
       "KC_Z",
       "KC_X",
       "KC_C",
@@ -86,13 +86,13 @@
       "KC_RGHT",
       "KC_PGDN",
       "KC_DEL",
-      "TO(0)",
-      "KC_NO",
-      "KC_LALT",
+      "KC_RSFT",
       "KC_LCTL",
-      "KC_LSFT",
-      "MO(3)",
-      "KC_NO"
+      "KC_LALT",
+      "KC_NO",
+      "KC_RGUI",
+      "KC_SPC",
+      "KC_RCTL"
     ],
     [
       "KC_GRV",
@@ -133,7 +133,7 @@
       "TO(1)",
       "KC_LGUI",
       "KC_LALT",
-      "KC_LCTL",
+      "KC_TRNS",
       "KC_LSFT",
       "KC_TRNS",
       "KC_NO"
